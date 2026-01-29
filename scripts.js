@@ -78,7 +78,7 @@ function getWord(word){
                 // iterate through array of returned definitions and add to string for output
                 for(let object of wordInfo.results){
                     // each definition is displayed in a list item
-                    display.innerHTML += `<li>${"TODO"}</li>`;
+                    display.innerHTML += `<li>${object.definition}</li>`;
                 }
                 
                 // clear the user input to make room for another word
